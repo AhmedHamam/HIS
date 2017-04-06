@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="suppliers_dataset" targetNamespace="http://tempuri.org/suppliers_dataset.xsd" xmlns:mstns="http://tempuri.org/suppliers_dataset.xsd" xmlns="http://tempuri.org/suppliers_dataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="suppliers_dataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="suppliers_dataset" msprop:Generator_UserDSName="suppliers_dataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="supplier_name" msprop:Generator_ColumnVarNameInTable="columnsupplier_name" msprop:Generator_ColumnPropNameInRow="supplier_name" msprop:Generator_ColumnPropNameInTable="supplier_nameColumn" msprop:Generator_UserColumnName="supplier_name" type="xs:string" minOccurs="0" />
+              <xs:element name="account_number" msprop:Generator_ColumnVarNameInTable="columnaccount_number" msprop:Generator_ColumnPropNameInRow="account_number" msprop:Generator_ColumnPropNameInTable="account_numberColumn" msprop:Generator_UserColumnName="account_number" type="xs:string" minOccurs="0" />
+              <xs:element name="supplier_id" msprop:Generator_ColumnVarNameInTable="columnsupplier_id" msprop:Generator_ColumnPropNameInRow="supplier_id" msprop:Generator_ColumnPropNameInTable="supplier_idColumn" msprop:Generator_UserColumnName="supplier_id" type="xs:string" minOccurs="0" />
+              <xs:element name="total_cost" msprop:Generator_ColumnVarNameInTable="columntotal_cost" msprop:Generator_ColumnPropNameInRow="total_cost" msprop:Generator_ColumnPropNameInTable="total_costColumn" msprop:Generator_UserColumnName="total_cost" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

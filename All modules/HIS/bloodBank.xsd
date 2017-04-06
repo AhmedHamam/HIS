@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="bloodBank" targetNamespace="http://tempuri.org/bloodBank.xsd" xmlns:mstns="http://tempuri.org/bloodBank.xsd" xmlns="http://tempuri.org/bloodBank.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PHISConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="PHISConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HIS.Properties.Settings.GlobalReference.Default.PHISConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="bloodBank" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="bloodBank" msprop:Generator_UserDSName="bloodBank">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="supplierType" msprop:Generator_ColumnVarNameInTable="columnsupplierType" msprop:Generator_ColumnPropNameInRow="supplierType" msprop:Generator_ColumnPropNameInTable="supplierTypeColumn" msprop:Generator_UserColumnName="supplierType" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="dateOfBirth" msprop:Generator_ColumnVarNameInTable="columndateOfBirth" msprop:Generator_ColumnPropNameInRow="dateOfBirth" msprop:Generator_ColumnPropNameInTable="dateOfBirthColumn" msprop:Generator_UserColumnName="dateOfBirth" type="xs:string" minOccurs="0" />
+              <xs:element name="address" msprop:Generator_ColumnVarNameInTable="columnaddress" msprop:Generator_ColumnPropNameInRow="address" msprop:Generator_ColumnPropNameInTable="addressColumn" msprop:Generator_UserColumnName="address" type="xs:string" minOccurs="0" />
+              <xs:element name="phone" msprop:Generator_ColumnVarNameInTable="columnphone" msprop:Generator_ColumnPropNameInRow="phone" msprop:Generator_ColumnPropNameInTable="phoneColumn" msprop:Generator_UserColumnName="phone" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_RowClassName="DataTable2Row" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="bloodType" msprop:Generator_ColumnVarNameInTable="columnbloodType" msprop:Generator_ColumnPropNameInRow="bloodType" msprop:Generator_ColumnPropNameInTable="bloodTypeColumn" msprop:Generator_UserColumnName="bloodType" type="xs:string" minOccurs="0" />
+              <xs:element name="bloodFaction" msprop:Generator_ColumnVarNameInTable="columnbloodFaction" msprop:Generator_ColumnPropNameInRow="bloodFaction" msprop:Generator_ColumnPropNameInTable="bloodFactionColumn" msprop:Generator_UserColumnName="bloodFaction" type="xs:string" minOccurs="0" />
+              <xs:element name="RH" msprop:Generator_ColumnVarNameInTable="columnRH" msprop:Generator_ColumnPropNameInRow="RH" msprop:Generator_ColumnPropNameInTable="RHColumn" msprop:Generator_UserColumnName="RH" type="xs:string" minOccurs="0" />
+              <xs:element name="quntity" msprop:Generator_ColumnVarNameInTable="columnquntity" msprop:Generator_ColumnPropNameInRow="quntity" msprop:Generator_ColumnPropNameInTable="quntityColumn" msprop:Generator_UserColumnName="quntity" type="xs:string" minOccurs="0" />
+              <xs:element name="bloodStoreID" msprop:Generator_ColumnVarNameInTable="columnbloodStoreID" msprop:Generator_ColumnPropNameInRow="bloodStoreID" msprop:Generator_ColumnPropNameInTable="bloodStoreIDColumn" msprop:Generator_UserColumnName="bloodStoreID" type="xs:string" minOccurs="0" />
+              <xs:element name="exDate" msprop:Generator_ColumnVarNameInTable="columnexDate" msprop:Generator_ColumnPropNameInRow="exDate" msprop:Generator_ColumnPropNameInTable="exDateColumn" msprop:Generator_UserColumnName="exDate" type="xs:string" minOccurs="0" />
+              <xs:element name="reserveQuantity" msprop:Generator_ColumnVarNameInTable="columnreserveQuantity" msprop:Generator_ColumnPropNameInRow="reserveQuantity" msprop:Generator_ColumnPropNameInTable="reserveQuantityColumn" msprop:Generator_UserColumnName="reserveQuantity" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="whichProcess" msprop:Generator_TableClassName="whichProcessDataTable" msprop:Generator_TableVarName="tablewhichProcess" msprop:Generator_TablePropName="whichProcess" msprop:Generator_RowDeletingName="whichProcessRowDeleting" msprop:Generator_RowChangingName="whichProcessRowChanging" msprop:Generator_RowEvHandlerName="whichProcessRowChangeEventHandler" msprop:Generator_RowDeletedName="whichProcessRowDeleted" msprop:Generator_UserTableName="whichProcess" msprop:Generator_RowChangedName="whichProcessRowChanged" msprop:Generator_RowEvArgName="whichProcessRowChangeEvent" msprop:Generator_RowClassName="whichProcessRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="doctorID" msprop:Generator_ColumnVarNameInTable="columndoctorID" msprop:Generator_ColumnPropNameInRow="doctorID" msprop:Generator_ColumnPropNameInTable="doctorIDColumn" msprop:Generator_UserColumnName="doctorID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="employeeID" msprop:Generator_ColumnVarNameInTable="columnemployeeID" msprop:Generator_ColumnPropNameInRow="employeeID" msprop:Generator_ColumnPropNameInTable="employeeIDColumn" msprop:Generator_UserColumnName="employeeID" type="xs:int" />
+              <xs:element name="processType" msprop:Generator_ColumnVarNameInTable="columnprocessType" msprop:Generator_ColumnPropNameInRow="processType" msprop:Generator_ColumnPropNameInTable="processTypeColumn" msprop:Generator_UserColumnName="processType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="processDate" msprop:Generator_ColumnVarNameInTable="columnprocessDate" msprop:Generator_ColumnPropNameInRow="processDate" msprop:Generator_ColumnPropNameInTable="processDateColumn" msprop:Generator_UserColumnName="processDate" type="xs:dateTime" />
+              <xs:element name="bloodType" msprop:Generator_ColumnVarNameInTable="columnbloodType" msprop:Generator_ColumnPropNameInRow="bloodType" msprop:Generator_ColumnPropNameInTable="bloodTypeColumn" msprop:Generator_UserColumnName="bloodType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bloodFaction" msprop:Generator_ColumnVarNameInTable="columnbloodFaction" msprop:Generator_ColumnPropNameInRow="bloodFaction" msprop:Generator_ColumnPropNameInTable="bloodFactionColumn" msprop:Generator_UserColumnName="bloodFaction" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RH" msprop:Generator_ColumnVarNameInTable="columnRH" msprop:Generator_ColumnPropNameInRow="RH" msprop:Generator_ColumnPropNameInTable="RHColumn" msprop:Generator_UserColumnName="RH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quntity" msprop:Generator_ColumnVarNameInTable="columnquntity" msprop:Generator_ColumnPropNameInRow="quntity" msprop:Generator_ColumnPropNameInTable="quntityColumn" msprop:Generator_UserColumnName="quntity" type="xs:int" minOccurs="0" />
+              <xs:element name="patientID" msprop:Generator_ColumnVarNameInTable="columnpatientID" msprop:Generator_ColumnPropNameInRow="patientID" msprop:Generator_ColumnPropNameInTable="patientIDColumn" msprop:Generator_UserColumnName="patientID" type="xs:int" minOccurs="0" />
+              <xs:element name="patientName" msprop:Generator_ColumnVarNameInTable="columnpatientName" msprop:Generator_ColumnPropNameInRow="patientName" msprop:Generator_ColumnPropNameInTable="patientNameColumn" msprop:Generator_UserColumnName="patientName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="process_state" msprop:Generator_ColumnVarNameInTable="columnprocess_state" msprop:Generator_ColumnPropNameInRow="process_state" msprop:Generator_ColumnPropNameInTable="process_stateColumn" msprop:Generator_UserColumnName="process_state" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bloodPackage" msprop:Generator_TableClassName="bloodPackageDataTable" msprop:Generator_TableVarName="tablebloodPackage" msprop:Generator_RowChangedName="bloodPackageRowChanged" msprop:Generator_TablePropName="bloodPackage" msprop:Generator_RowDeletingName="bloodPackageRowDeleting" msprop:Generator_RowChangingName="bloodPackageRowChanging" msprop:Generator_RowEvHandlerName="bloodPackageRowChangeEventHandler" msprop:Generator_RowDeletedName="bloodPackageRowDeleted" msprop:Generator_RowClassName="bloodPackageRow" msprop:Generator_UserTableName="bloodPackage" msprop:Generator_RowEvArgName="bloodPackageRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="bloodType" msprop:Generator_ColumnVarNameInTable="columnbloodType" msprop:Generator_ColumnPropNameInRow="bloodType" msprop:Generator_ColumnPropNameInTable="bloodTypeColumn" msprop:Generator_UserColumnName="bloodType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bloodFaction" msprop:Generator_ColumnVarNameInTable="columnbloodFaction" msprop:Generator_ColumnPropNameInRow="bloodFaction" msprop:Generator_ColumnPropNameInTable="bloodFactionColumn" msprop:Generator_UserColumnName="bloodFaction" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RH" msprop:Generator_ColumnVarNameInTable="columnRH" msprop:Generator_ColumnPropNameInRow="RH" msprop:Generator_ColumnPropNameInTable="RHColumn" msprop:Generator_UserColumnName="RH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quntity" msprop:Generator_ColumnVarNameInTable="columnquntity" msprop:Generator_ColumnPropNameInRow="quntity" msprop:Generator_ColumnPropNameInTable="quntityColumn" msprop:Generator_UserColumnName="quntity" type="xs:int" minOccurs="0" />
+              <xs:element name="bloodStoreID" msprop:Generator_ColumnVarNameInTable="columnbloodStoreID" msprop:Generator_ColumnPropNameInRow="bloodStoreID" msprop:Generator_ColumnPropNameInTable="bloodStoreIDColumn" msprop:Generator_UserColumnName="bloodStoreID" type="xs:int" minOccurs="0" />
+              <xs:element name="exDate" msprop:Generator_ColumnVarNameInTable="columnexDate" msprop:Generator_ColumnPropNameInRow="exDate" msprop:Generator_ColumnPropNameInTable="exDateColumn" msprop:Generator_UserColumnName="exDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="reserveQuantity" msprop:Generator_ColumnVarNameInTable="columnreserveQuantity" msprop:Generator_ColumnPropNameInRow="reserveQuantity" msprop:Generator_ColumnPropNameInTable="reserveQuantityColumn" msprop:Generator_UserColumnName="reserveQuantity" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:whichProcess" />
+      <xs:field xpath="mstns:doctorID" />
+      <xs:field xpath="mstns:employeeID" />
+      <xs:field xpath="mstns:processDate" />
+    </xs:unique>
+    <xs:unique name="bloodPackage_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:bloodPackage" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
