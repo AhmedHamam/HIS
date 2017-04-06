@@ -42,7 +42,10 @@ namespace HIS
                 cmd.Parameters.AddWithValue("perioud", textBox4.Text);
                 cmd.Parameters.AddWithValue("experinced_gained", richTextBox1.Text);
                 cmd.ExecuteNonQuery();
-
+                MessageBox.Show("تم الاضافة");
+                richTextBox1.Text="";
+                    textBox1.Text="";
+                    textBox4.Text = "";
             }
             catch (Exception)
             {
@@ -64,6 +67,10 @@ namespace HIS
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("name", textBox1.Text);
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("تم الحذف");
+                richTextBox1.Text = "";
+                textBox1.Text = "";
+                textBox4.Text = "";
                 con.CloseConnection();
             }
             catch (Exception ee)
@@ -88,7 +95,10 @@ namespace HIS
                 cmd.Parameters.AddWithValue("emp_id", textBox2.Text);
                 cmd.Parameters.AddWithValue("name", textBox3.Text );
                 cmd.ExecuteNonQuery();
-
+                MessageBox.Show("تم الاضافة");
+                 textBox2.Text="";
+                      textBox3.Text="";
+                      textBox5.Text = "";
             }
             catch (Exception)
             {
@@ -111,6 +121,10 @@ namespace HIS
                     cmd.Parameters.AddWithValue("emp_id", textBox2.Text);
                     cmd.Parameters.AddWithValue("name", textBox3.Text);
                     cmd.ExecuteNonQuery();
+                    MessageBox.Show("تم الحذف");
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                    textBox5.Text = "";
                     con.CloseConnection();
                 }
                 catch (Exception ee)

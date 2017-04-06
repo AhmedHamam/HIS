@@ -100,7 +100,32 @@ namespace HIS
                 cmd.Parameters.AddWithValue("career_state", comboBox4.SelectedItem.ToString());
                 cmd.Parameters.AddWithValue("dep_code", textBox5.Text);
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("تم اضافة موظف");
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                comboBox2.Text = "";
+                textBox6.Text = "";
+                comboBox1.Text = "";
 
+                textBox7.Text = "";
+                textBox8.Text = "";
+                textBox9.Text = "";
+                textBox10.Text = "";
+                textBox11.Text = "";
+
+                textBox13.Text = "";
+
+                textBox16.Text = "";
+                textBox17.Text = "";
+                textBox19.Text = "";
+
+                textBox12.Text = "";
+                comboBox3.Text = "";
+                textBox23.Text = "";
+                comboBox4.Text = "";
+                textBox5.Text = "";
             }
             catch (Exception ee)
             {
@@ -146,7 +171,32 @@ namespace HIS
                 cmd.Parameters.AddWithValue("career_state", comboBox4.SelectedItem.ToString());
                 cmd.Parameters.AddWithValue("dep_code", textBox5.Text);
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("تم تعديل بيانات موظف");
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                comboBox2.Text = "";
+                textBox6.Text = "";
+                comboBox1.Text = "";
 
+                textBox7.Text = "";
+                textBox8.Text = "";
+                textBox9.Text = "";
+                textBox10.Text = "";
+                textBox11.Text = "";
+
+                textBox13.Text = "";
+
+                textBox16.Text = "";
+                textBox17.Text = "";
+                textBox19.Text = "";
+
+                textBox12.Text = "";
+                comboBox3.Text = "";
+                textBox23.Text = "";
+                comboBox4.Text = "";
+                textBox5.Text = "";
             }
             catch (Exception ee)
             {
@@ -170,6 +220,32 @@ namespace HIS
                     cmd.Parameters.AddWithValue("emp_id", textBox1.Text);
                     cmd.ExecuteNonQuery();
                     con.CloseConnection();
+                    MessageBox.Show("تم حذف موظف");
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                    textBox3.Text = "";
+                    textBox4.Text = "";
+                    comboBox2.Text = "";
+                    textBox6.Text = "";
+                    comboBox1.Text = "";
+
+                    textBox7.Text = "";
+                    textBox8.Text = "";
+                    textBox9.Text = "";
+                    textBox10.Text = "";
+                    textBox11.Text = "";
+
+                    textBox13.Text = "";
+
+                    textBox16.Text = "";
+                    textBox17.Text = "";
+                    textBox19.Text = "";
+
+                    textBox12.Text = "";
+                    comboBox3.Text = "";
+                    textBox23.Text = "";
+                    comboBox4.Text = "";
+                    textBox5.Text = "";
                 }
                 catch (Exception ee)
                 {

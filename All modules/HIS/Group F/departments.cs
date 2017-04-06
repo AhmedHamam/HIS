@@ -37,6 +37,10 @@ namespace HIS
                 cmd.Parameters.AddWithValue("phone", textBox5.Text);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("تم ادخال القسم بنجاح");
+                textBox1.Text="";
+                    textBox3.Text="";
+                        textBox4.Text="";
+                        textBox5.Text = "";
 
             }
             catch (Exception ee)
@@ -71,7 +75,10 @@ namespace HIS
                 cmd.Parameters.AddWithValue("phone", textBox5.Text);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("تم تعديل القسم بنجاح");
-
+                textBox1.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "";
             }
             catch (Exception)
             {

@@ -67,13 +67,16 @@ namespace HIS
                
                 SqlCommand cmd = new SqlCommand();
                  con.OpenConection();
-                 cmd.CommandText = ("SELECT _value as العلاوات, _date as التاريخ FROM employee inner join bonuses on bonuses.emp_id = employee.emp_id where name = '" + comboBox2.SelectedItem + "' order by bonuses._date");
+                 cmd.CommandText = ("SELECT _value as العلاوات, _date as التاريخ FROM employee inner join bonuses on bonuses.emp_id = employee.emp_id where name = '" + comboBox2.Text + "' order by bonuses._date DESC");
                 cmd.Connection = con.con;
                 SqlDataReader dr = cmd.ExecuteReader();
                 DataTable dt = new DataTable();
                 dt.Load(dr);
                 dataGridView1.DataSource = dt;
                 dr.Close();
+                comboBox4.SelectedValue = "";
+                comboBox3.SelectedValue = "";
+                comboBox1.SelectedValue="";
                 comboBox4.Text = "";
                 comboBox3.Text = "";
                // comboBox2.Text = "";
@@ -97,13 +100,16 @@ namespace HIS
 
                 SqlCommand cmd = new SqlCommand();
                 con.OpenConection();
-                cmd.CommandText = ("SELECT _value as الحوافز, _date as التاريخ FROM employee inner join incentives on incentives.emp_id = employee.emp_id where name = '" + comboBox1.SelectedItem + "' order by incentives._date");
+                cmd.CommandText = ("SELECT _value as الحوافز, _date as التاريخ FROM employee inner join incentives on incentives.emp_id = employee.emp_id where name = '" + comboBox1.Text + "' order by incentives._date DESC");
                 cmd.Connection = con.con;
                 SqlDataReader dr = cmd.ExecuteReader();
                 DataTable dt = new DataTable();
                 dt.Load(dr);
                 dataGridView1.DataSource = dt;
                 dr.Close();
+                comboBox4.SelectedValue = "";
+                comboBox3.SelectedValue = "";
+                comboBox2.SelectedValue = "";
                 comboBox4.Text = "";
                 comboBox3.Text = "";
                 comboBox2.Text = "";
@@ -125,13 +131,16 @@ namespace HIS
 
                 SqlCommand cmd = new SqlCommand();
                 con.OpenConection();
-                cmd.CommandText = ("SELECT _value as الخصومات, _date as التاريخ FROM employee inner join deductions on deductions.emp_id = employee.emp_id where name = '" + comboBox3.SelectedItem + "' order by deductions._date");
+                cmd.CommandText = ("SELECT _value as الخصومات, _date as التاريخ FROM employee inner join deductions on deductions.emp_id = employee.emp_id where name = '" + comboBox3.Text + "' order by deductions._date DESC");
                 cmd.Connection = con.con;
                 SqlDataReader dr = cmd.ExecuteReader();
                 DataTable dt = new DataTable();
                 dt.Load(dr);
                 dataGridView1.DataSource = dt;
                 dr.Close();
+                comboBox4.SelectedValue = "";
+                comboBox1.SelectedValue = "";
+                comboBox2.SelectedValue = "";
                 comboBox4.Text = "";
               //  comboBox3.Text = "";
                 comboBox2.Text = "";
@@ -153,13 +162,16 @@ namespace HIS
 
                 SqlCommand cmd = new SqlCommand();
                 con.OpenConection();
-                cmd.CommandText = ("SELECT _value as الجزاءات, _date as التاريخ FROM employee inner join penalties on penalties.emp_id = employee.emp_id where name = '" + comboBox4.SelectedItem + "' order by penalties._date");
+                cmd.CommandText = ("SELECT _value as الجزاءات, _date as التاريخ FROM employee inner join penalties on penalties.emp_id = employee.emp_id where name = '" + comboBox4.Text + "' order by penalties._date DESC");
                 cmd.Connection = con.con;
                 SqlDataReader dr = cmd.ExecuteReader();
                 DataTable dt = new DataTable();
                 dt.Load(dr);
                 dataGridView1.DataSource = dt;
                 dr.Close();
+                comboBox1.SelectedValue = "";
+                comboBox3.SelectedValue = "";
+                comboBox2.SelectedValue = "";
             //   comboBox4.Text = "";
                 comboBox3.Text = "";
                 comboBox2.Text = "";
