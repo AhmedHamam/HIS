@@ -22,7 +22,7 @@ namespace HIS
         string EntityID;      //كود الجهة
         string BranchEntityID;//كود الجهة الفرعية
         string GroupID;       //كود الفئة
-        string RegulationID;  //كود الائحة
+        string RegulationID;  ////كود الائحة
 
         int Patient_service_percentage = 0;
         int Patient_medicine_percentage = 0;
