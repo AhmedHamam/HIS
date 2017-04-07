@@ -36,7 +36,7 @@ namespace HIS
         {
             try
             {
-                if (textBox2.Text.Length == 0 & textBox1.Text.Length == 0)
+                if (textBox2.Text.Length == 0 && textBox3.Text.Length == 0)
                     MessageBox.Show("قم بادخال البيانات");
                 string[] s = new string[] { "@x", "@y" };
                 string[] s2 = new string[] { textBox3.Text, textBox2.Text };
@@ -48,7 +48,7 @@ namespace HIS
                 //cmd.Parameters.AddWithValue("@z", comboBox1.SelectedItem);
                 
                 //cmd.ExecuteNonQuery();
-                if (textBox2.Text.Length != 0 & textBox1.Text.Length != 0)
+                if (textBox2.Text.Length != 0 && textBox3.Text.Length != 0)
                 {
                     موافق f = new موافق();
                     f.Show();
