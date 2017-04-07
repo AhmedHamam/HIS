@@ -49,9 +49,9 @@
             this.ملفToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.إنشاءنسخةإحتياطيةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.إستعادةنسخةإحتياطيةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.خروجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.patient_data = new System.Windows.Forms.DataGridView();
-            this.خروجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.examination)).BeginInit();
@@ -298,12 +298,21 @@
             this.إنشاءنسخةإحتياطيةToolStripMenuItem.Name = "إنشاءنسخةإحتياطيةToolStripMenuItem";
             this.إنشاءنسخةإحتياطيةToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.إنشاءنسخةإحتياطيةToolStripMenuItem.Text = "إنشاء نسخة إحتياطية";
+            this.إنشاءنسخةإحتياطيةToolStripMenuItem.Click += new System.EventHandler(this.إنشاءنسخةإحتياطيةToolStripMenuItem_Click);
             // 
             // إستعادةنسخةإحتياطيةToolStripMenuItem
             // 
             this.إستعادةنسخةإحتياطيةToolStripMenuItem.Name = "إستعادةنسخةإحتياطيةToolStripMenuItem";
             this.إستعادةنسخةإحتياطيةToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.إستعادةنسخةإحتياطيةToolStripMenuItem.Text = "إستعادة نسخة إحتياطية";
+            this.إستعادةنسخةإحتياطيةToolStripMenuItem.Click += new System.EventHandler(this.إستعادةنسخةإحتياطيةToolStripMenuItem_Click);
+            // 
+            // خروجToolStripMenuItem
+            // 
+            this.خروجToolStripMenuItem.Name = "خروجToolStripMenuItem";
+            this.خروجToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.خروجToolStripMenuItem.Text = "خروج";
+            this.خروجToolStripMenuItem.Click += new System.EventHandler(this.خروجToolStripMenuItem_Click);
             // 
             // groupBox3
             // 
@@ -328,13 +337,6 @@
             this.patient_data.Name = "patient_data";
             this.patient_data.Size = new System.Drawing.Size(933, 123);
             this.patient_data.TabIndex = 0;
-            // 
-            // خروجToolStripMenuItem
-            // 
-            this.خروجToolStripMenuItem.Name = "خروجToolStripMenuItem";
-            this.خروجToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.خروجToolStripMenuItem.Text = "خروج";
-            this.خروجToolStripMenuItem.Click += new System.EventHandler(this.خروجToolStripMenuItem_Click);
             // 
             // frm_manages_files
             // 

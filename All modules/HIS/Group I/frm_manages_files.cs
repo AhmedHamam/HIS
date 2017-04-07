@@ -235,5 +235,17 @@ namespace HIS
           
             this.Close();
         }
+
+        private void إنشاءنسخةإحتياطيةToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_backup frm = new frm_backup();
+            frm.Show();
+        }
+
+        private void إستعادةنسخةإحتياطيةToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_restore frm = new frm_restore();
+            frm.Show();
+        }
     }
 }

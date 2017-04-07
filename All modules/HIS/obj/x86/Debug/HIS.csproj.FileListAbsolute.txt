@@ -1463,3 +1463,5 @@ D:\HIS\G-Project\HIS\All modules\HIS\obj\x86\Debug\HIS.توريد__ادويه_ا
 D:\HIS\G-Project\HIS\All modules\HIS\obj\x86\Debug\HIS.csproj.GenerateResource.Cache
 D:\HIS\G-Project\HIS\All modules\HIS\obj\x86\Debug\RdlCompile.cache
 D:\HIS\G-Project\HIS\All modules\HIS\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Ahmed Gamal\Desktop\HISGIT\HIS\All modules\HIS\obj\x86\Debug\HIS.exe
+C:\Users\Ahmed Gamal\Desktop\HISGIT\HIS\All modules\HIS\obj\x86\Debug\HIS.pdb
