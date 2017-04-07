@@ -108,7 +108,7 @@ namespace HIS
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
-            validate.integer(sender, e, this);
+            //validate.integer(sender, e, this);
         }
 
         private void textBox4_KeyPress(object sender, KeyPressEventArgs e)

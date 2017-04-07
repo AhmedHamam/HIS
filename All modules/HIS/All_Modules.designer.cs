@@ -810,7 +810,7 @@
             // 
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(72)))), ((int)(((byte)(120)))));
