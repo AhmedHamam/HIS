@@ -49,7 +49,7 @@ namespace HIS
                 else { agree = false; }
                 string[] parmnames = { "@p_number","@id","@openingFileDate","@approvalstate" };
                 string[] parmvalues = { textBox6.Text, textBox3.Text, dateTimePicker1.Text, agree.ToString() };
-                SqlDbType[] paradbtype = { SqlDbType.Int, SqlDbType.Int, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.Bit };
+                SqlDbType[] paradbtype = { SqlDbType.Int, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.Bit };
 
                 con.ShowDataInsertUsingStoredProc("[insertHeartExaminationOrder]", parmnames, parmvalues, paradbtype);
                 con.CloseConnection();
