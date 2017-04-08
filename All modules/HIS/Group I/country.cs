@@ -41,7 +41,8 @@ namespace HIS
        
         //**************************************الخروج*******************************************************************
         private void btn_exit_Click(object sender, EventArgs e)
-        {
+        { 
+            //خروج
             //parent.Show();
             this.Close();
         }
