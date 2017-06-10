@@ -2669,11 +2669,9 @@ F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.branch_disease.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.country.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.differentservicse.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.frm_backup.resources
-F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.city.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.frm_manages_files.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.frm_restore.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.kind_of_address.resources
-F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.MainForm.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.main_setting.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.move_servisce.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.names_dictionary.resources
@@ -2685,7 +2683,6 @@ F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.OrdersForm.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.patient_statues.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.printing_devices.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.reasons_of_exit.resources
-F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.regions.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.relgion.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.Request_a_mealForm.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.Service_Ray.resources
@@ -2694,7 +2691,6 @@ F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.shifts.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.surgery_rooms.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.ways_to_contact.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.work_direction.resources
-F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.zone.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.scan_set.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.frm_scanner.resources
 F:\HIS\HIS\All modules\HIS\obj\x86\Debug\HIS.kind_fils.resources

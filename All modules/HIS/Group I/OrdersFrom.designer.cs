@@ -168,6 +168,7 @@
             this.linkLblPendingOrders.TabIndex = 12;
             this.linkLblPendingOrders.TabStop = true;
             this.linkLblPendingOrders.Text = "الأوامر المعلقة لمريض ";
+            this.linkLblPendingOrders.Visible = false;
             this.linkLblPendingOrders.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblPendingOrders_LinkClicked);
             // 
             // linkLblpermissionExch
@@ -181,6 +182,7 @@
             this.linkLblpermissionExch.TabIndex = 10;
             this.linkLblpermissionExch.TabStop = true;
             this.linkLblpermissionExch.Text = "بحث إذن صرف لمريض";
+            this.linkLblpermissionExch.Visible = false;
             this.linkLblpermissionExch.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblpermissionExch_LinkClicked);
             // 
             // linkLblBloodReq

@@ -13,8 +13,8 @@ namespace HIS
 
         //string ConnectionString = @"Data Source=KOKO\SQLEXPRESS;Initial Catalog=PHIS;Integrated Security=True";
        // string ConnectionString = @"Data Source=AHMEDHAMAM-PC;Initial Catalog=PHIS;Integrated Security=True";
-
-        string ConnectionString = @"Data Source=172.31.44.128;Initial Catalog=PHIS;uid=sa;pwd=sql@2013;";
+      //  string ConnectionString = @"Data Source=(localdb)\projects;Initial Catalog=PHIS;uid=sa;pwd=root;";
+        string ConnectionString = @"Data Source=(localdb)\projects;Initial Catalog=PHIS;uid=sa;pwd=root;";
         public SqlConnection con;
 
         public void OpenConection()

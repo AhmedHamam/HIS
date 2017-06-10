@@ -2865,12 +2865,6 @@
     <Compile Include="Group I\frm_backup.designer.cs">
       <DependentUpon>frm_backup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Group I\frm_city.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Group I\frm_city.designer.cs">
-      <DependentUpon>frm_city.cs</DependentUpon>
-    </Compile>
     <Compile Include="Group I\frm_manages_files.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2888,12 +2882,6 @@
     </Compile>
     <Compile Include="Group I\kind of address.designer.cs">
       <DependentUpon>kind of address.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Group I\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Group I\MainForm.designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Group I\main_setting.cs">
       <SubType>Form</SubType>
@@ -2961,12 +2949,6 @@
     <Compile Include="Group I\reasons of exit.designer.cs">
       <DependentUpon>reasons of exit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Group I\regions.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Group I\regions.designer.cs">
-      <DependentUpon>regions.cs</DependentUpon>
-    </Compile>
     <Compile Include="Group I\relgion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -3014,12 +2996,6 @@
     </Compile>
     <Compile Include="Group I\work direction.designer.cs">
       <DependentUpon>work direction.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Group I\zone.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Group I\zone.designer.cs">
-      <DependentUpon>zone.cs</DependentUpon>
     </Compile>
     <Compile Include="Group I\اعدادات المسح الضوئي.cs">
       <SubType>Form</SubType>
@@ -5895,9 +5871,6 @@
     <EmbeddedResource Include="Group I\frm_backup.resx">
       <DependentUpon>frm_backup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Group I\frm_city.resx">
-      <DependentUpon>frm_city.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Group I\frm_manages_files.resx">
       <DependentUpon>frm_manages_files.cs</DependentUpon>
     </EmbeddedResource>
@@ -5906,9 +5879,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Group I\kind of address.resx">
       <DependentUpon>kind of address.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Group I\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Group I\main_setting.resx">
       <DependentUpon>main_setting.cs</DependentUpon>
@@ -5943,9 +5913,6 @@
     <EmbeddedResource Include="Group I\reasons of exit.resx">
       <DependentUpon>reasons of exit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Group I\regions.resx">
-      <DependentUpon>regions.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Group I\relgion.resx">
       <DependentUpon>relgion.cs</DependentUpon>
     </EmbeddedResource>
@@ -5969,9 +5936,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Group I\work direction.resx">
       <DependentUpon>work direction.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Group I\zone.resx">
-      <DependentUpon>zone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Group I\اعدادات المسح الضوئي.resx">
       <DependentUpon>اعدادات المسح الضوئي.cs</DependentUpon>

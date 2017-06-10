@@ -32,7 +32,7 @@ namespace HIS
         public void dis_data()
         {
             con1.OpenConection();
-            dataGridView1.DataSource = (DataTable)con1.ShowDataInGridViewUsingStoredProc("viewingbuilding");
+            dataGridView1.DataSource = (DataTable)con1.ShowDataInGridViewUsingStoredProc("viewingbuilding1");
             dataGridView2.DataSource = (DataTable)con1.ShowDataInGridViewUsingStoredProc("viewingunit");
             dataGridView3.DataSource = (DataTable)con1.ShowDataInGridViewUsingStoredProc("viewingclinc");
         }
