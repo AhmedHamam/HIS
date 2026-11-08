@@ -5,7 +5,7 @@ A large, multi-module **Hospital Information System** built as a graduation proj
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![.NET Framework](https://img.shields.io/badge/.NET%20Framework-WinForms-5C2D91?style=flat-square&logo=dotnet&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![RDLC](https://img.shields.io/badge/Reports-RDLC-0078D4?style=flat-square)
+![RDLC Reports](https://img.shields.io/badge/RDLC-Reports-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 
 ## 🧩 Modules
 
